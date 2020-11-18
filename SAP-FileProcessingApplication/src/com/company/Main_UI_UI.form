@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.company.MainUI">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="GridLayoutManager" row-count="4" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="10">
+    <margin top="2" left="2" bottom="2" right="2"/>
+    <constraints>
+      <xy x="9" y="10" width="1083" height="512"/>
+    </constraints>
+    <properties>
+      <background color="-16777216"/>
+      <foreground color="-1"/>
+      <minimumSize width="800" height="450"/>
+      <preferredSize width="800" height="450"/>
+    </properties>
+    <border type="bevel-raised" title-justification="2">
+      <title-color color="-1"/>
+    </border>
+    <children>
+      <scrollpane id="7ddff" binding="WritingPane">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="4" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="0" height="370"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="5b168" class="javax.swing.JTextPane" binding="textPane1" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="5136b" class="javax.swing.JButton" binding="SwapLinesbnt">
+        <constraints>
+          <grid row="2" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <alignmentY value="0.0"/>
+          <label value="SwapLines"/>
+          <name value="bntSwapLines"/>
+          <text value="SwapLines"/>
+        </properties>
+      </component>
+      <component id="4273c" class="javax.swing.JButton" binding="OpenFilebnt">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <name value="bntOpenFile"/>
+          <text value="OpenFile"/>
+        </properties>
+      </component>
+      <component id="15b88" class="javax.swing.JButton" binding="SwapWordsbnt">
+        <constraints>
+          <grid row="2" column="3" row-span="2" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <label value="SwapWords"/>
+          <name value="bntSwapWords"/>
+          <text value="SwapWords"/>
+        </properties>
+      </component>
+      <component id="9f8ef" class="javax.swing.JTextField" binding="FieldB">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <name value="txtFieldB"/>
+          <text value="Enter location of the word (use numbers)"/>
+          <toolTipText value="Number of the word you want to change (Ex.: 2)"/>
+        </properties>
+      </component>
+      <component id="50637" class="javax.swing.JButton" binding="SaveFilebnt">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <name value="bntSaveFile"/>
+          <text value="SaveFile"/>
+        </properties>
+      </component>
+      <component id="fbe94" class="javax.swing.JTextField" binding="FileLocation">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <name value="txtFileLocation"/>
+          <text value="Path to the file you want to open"/>
+          <toolTipText value="Enter the location you want to open/save the file."/>
+        </properties>
+      </component>
+      <component id="11ca6" class="javax.swing.JTextField" binding="FieldA">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <name value="txtFieldA"/>
+          <text value="Enter location of the word (enter numbers)"/>
+          <toolTipText value="Number of the word you want to swap (Ex.: 1)"/>
+        </properties>
+      </component>
+      <component id="a3ff7" class="javax.swing.JTextField" binding="FieldL1">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Enter line (use numbers)"/>
+          <toolTipText value="Number of the line you want to use (Ex. 1)"/>
+        </properties>
+      </component>
+      <component id="66adf" class="javax.swing.JTextField" binding="FieldL2">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Enter line (use numbers)"/>
+          <toolTipText value="Number of the line you use (Ex.: 2)"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
